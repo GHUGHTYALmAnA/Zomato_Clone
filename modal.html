@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .custom-checkbox {
+  position: relative;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  /* Hide the default checkbox */
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #9c9c9c;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"]:checked {
+  /* Modify the appearance when the checkbox is checked */
+  border-color: #ef4f5f;
+}
+
+.custom-checkbox label {
+  margin-left: 10px; /* Adjust the spacing between the checkbox and label */
+}
+
+/* Pseudo-element for creating a custom checkmark */
+.custom-checkbox input[type="checkbox"]:checked::before {
+  content: "\2713"; /* Unicode character for checkmark */
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-size: 16px; /* Adjust the size of the checkmark */
+  color: #ef4f5f; /* Color of the checkmark */
+}
+
+    </style>
+</head>
+<body>
+    <div class="custom-checkbox">
+        <input type="checkbox" id="myCheckbox">
+        <label for="myCheckbox">Check me</label>
+      </div>
+      
+</body>
+</html>

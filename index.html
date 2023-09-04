@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./image/zomatoLogo.png">
+</head>
+
+<body class="active">
+    <header>
+        <div class="navBar">
+            <div class="imgUser">
+                <div class="image">
+                    <img class="img" src="./image/Zomato.png">
+                </div>
+                <!-- <div class="user">
+                    <img src="./image/user.png" width="18px" height="18px" class="userImg">
+                </div> -->
+            </div>
+            <div class="navBottom">
+                <div class="middleNav">
+                    <div class="loc">
+                        <img src="./image/map.png" width="20px" height="20px" class="locImg">
+                        <form action="#">
+                            <input id="location" type="text" placeholder="enter your location">
+                        </form>
+                        <img src="./image/down.png" class="down" width="12px" height="12px">
+
+                        <!-- down arrow modal  -->
+
+                        <div class="down-modal">
+                            <div class="down-modal-content">
+                                <img src="./image/gps.png" width="14px" height="14px">
+                                <p class="down-para-content">Detect Current Location</p>
+                            </div>
+                            <p class="down-para">Using GPS</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stick">
+                        <img src="./image/line.png">
+                    </div>
+                    <div class="srch">
+                        <img class="src" src="./image/search.png" width="18px" height="18px">
+                        <form action="#">
+                            <input id="Search" type="text" autocomplete="off" placeholder="search for restaurant, cuisine or a dish">
+                        </form>
+                    </div>
+                    <div class="rightNav">
+                        <a class="log1" href="#">Log In</a>
+                        <a class="log" href="#">Sign Up</a>
+
+                        <!-- Login Button Modal  -->
+
+
+                        <div class="login-modal">
+                            <div class="login-modal-content">
+                                <p class="login">Login</p>
+                                <img style="cursor: pointer;" class="cross" src="./image/close.png" width="14px" height="14px">
+                            </div>
+                            <div class="login-input">
+                                <div class="phone-number">
+                                    <div class="code-num">
+                                        <img style="border-radius: 7px;" src="./image/india.png" width="23px" height="20px">
+                                        <p style="margin: 0;">+91</p>
+                                        <img src="./image/down-arrow.png" width="16px" height="16px">
+                                        <img src="./image/line.png" width="20px" height="20px">
+                                    </div>
+                                    <input class="num-input" type="number" pattern="[0-9]{1}" inputmode="numeric" id="phone-number" placeholder="Phone">
+                                </div>
+                            </div>
+                            <div class="otp-btn">
+                                <button class="otp">Send One Time Password</button>
+                            </div>
+                            <div class="or">
+                                <img src="./image/minus-horizontal-straight-line.png" height="3px" width="44%">
+                                <p class="or-p">or</p>
+                                <img src="./image/minus-horizontal-straight-line.png" height="3px" width="47%">
+                            </div>
+                            <div class="mail">
+                                <img style="cursor: pointer;" src="./image/email.png">
+                                <p class="email">Continue with Email</p>
+                            </div>
+                            <div class="google">
+                                <img style="cursor: pointer;" src="./image/google.png">
+                                <p class="email">Continue with Google</p>
+                            </div>
+                            <img style="margin-top: 30px;" src="./image/minus-horizontal-straight-line.png" height="3px" width="100%">
+                            <div class="create-or-new">
+                                <p class="new">New to Zomato?</p>
+                                &nbsp;<p class="create">Create Account</p>
+                            </div>
+                        </div>
+
+                        <!-- Sign up button modal  -->
+
+                        <div class="signup-modal">
+                            <div class="signup-modal-content">
+                                <p class="login">Sign up</p>
+                                <img style="cursor: pointer;" class="cross-close" src="./image/close.png" width="14px" height="14px">
+                            </div>
+                            <div class="signup-name-input-modal">
+                                <input class="name-input" type="text" id="name" placeholder="Full Name" autocomplete="off">
+                            </div>
+                            <div class="signup-email-input-modal">
+                                <input class="email-input" type="text" id="name" placeholder="Email" autocomplete="off">
+                            </div>
+                            <div class="checkbox-para">
+                                <input type="checkbox" id="mycheckbox">
+                                <p class="link-para">I agrees to Zomato's <a class="link" href="#">Terms of Service</a>,<a class="link" href="#"> Privacy Policy</a> and <a class="link" href="#">Content Policies</a></p>
+                            </div>
+                            <div class="create-account-btn">
+                                <button class="create-account">Create account</button>
+                            </div>
+                            <div class="or-signup">
+                                <img src="./image/minus-horizontal-straight-line.png" height="3px" width="44%">
+                                <p class="or-p">or</p>
+                                <img src="./image/minus-horizontal-straight-line.png" height="3px" width="47%">
+                            </div>
+                            <div class="google">
+                                <img style="cursor: pointer;" src="./image/google.png">
+                                <p class="email">Continue with Google</p>
+                            </div>
+                            <div class="already-or-new">
+                                <p class="already">Already have an account?</p>
+                                &nbsp;<p class="login-para">Log in</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </header>
+    <section>
+        <div class="upper">
+            <div class="links">
+                <a href="#" class="homelink">Home <span>/</span></a>
+                <a href="#" class="indialink">India &nbsp;<span>/</span></a>
+                <a href="#" class="ncrlink">Delhi NCR &nbsp;<span>/</span></a>
+                <a href="#" class="delhilink">Central Delhi &nbsp;<span>/</span></a>
+                <a href="#" class="restaurantlink">Jai Singh Road Restaurants</a>
+            </div>
+        </div>
+    </section>
+    <section class="order">
+        <div class="orderType">
+            <div class="delivery">
+                <div class="dell">
+                    <img src="./image/delivery.png" width="30px" height="30px">
+                </div>
+                <p class="paradel">Delivery</p>
+            </div>
+            <div class="dinning">
+                <div class="dinn">
+                    <img src="./image/dinner.png" id="Img" width="30px" height="30px">
+                </div>
+                <p class="para">Dinning</p>
+            </div>
+            <div class="night">
+                <div class="nightlife">
+                    <img src="./image/nightlife.png" id="Img" width="30px" height="30px">
+                </div>
+                <p class="para">NightLife</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- filter rating cuisine section -->
+    <section class="butt">
+        <div class="button">
+            <div class="filter">
+                <div class="filter-modal">
+                    <ul>
+                        <li>
+                            <img src="./image/filter.png" width="18px" height="18px" class="fil">
+                        </li>
+                        <li>Filters</li>
+                    </ul>
+                </div>
+                <div class="filter-modal-content">
+
+                    <!-- HEADER SECTION OF MODAL CONTENT  -->
+
+                    <section class="filter-section">
+                        <div class="filter-content-header">
+                            <p style="cursor:auto;">Filters</p>
+                            <span class="close"
+                                style="width: 26px; height: 26px; display: flex; justify-content: center; align-items: center;">
+                                <img src="./image/close.png" width="15px" height="15px"></span>
+                        </div>
+                    </section>
+
+                    <!-- MORE FILTER MODAL CONTENT  -->
+
+                    <section>
+                        <article class="filter-modal-article">
+                            <section class="article-section">
+                                <div class="sort">
+                                    <p class="sortby">Sort by</p>
+                                    <p class="popular">Popularity</p>
+                                </div>
+                                <div class="cuisines">
+                                    <p>Cuisines</p>
+                                </div>
+                                <div class="cuisines">
+                                    <p>Rating</p>
+                                </div>
+                                <div class="cuisines">
+                                    <p>Cost per person</p>
+                                </div>
+                                <div class="cuisines">
+                                    <p>More filters</p>
+                                </div>
+                            </section>
+
+                            <!-- new article section  -->
+
+                            <section class="radio-section">
+                                <div class="radio-filter">
+                                    <div class="popular-radio radiobtn">
+                                        <input type="radio" id="popularity" style="cursor: pointer;" name="radio" value="" checked="checked">
+                                        <label for="popularity" style="cursor: pointer;">Popularity</label>
+                                    </div>
+                                    <div class="hightolow-radio radiobtn" style="cursor: pointer;">
+                                        <input type="radio" id="rating" style="cursor: pointer;" name="radio">
+                                        <label for="rating" style="cursor: pointer;">Rating: High to Low</label>
+                                    </div>
+                                    <div class="deliverytime-radio radiobtn" style="cursor: pointer;">
+                                        <input type="radio" id="delivery" style="cursor: pointer;" name="radio">
+                                        <label for="delivery" style="cursor: pointer;">Delivery Time</label>
+                                    </div>
+                                    <div class="costlowtohigh-radio radiobtn" style="cursor: pointer;">
+                                        <input type="radio" id="cost" style="cursor: pointer;" name="radio">
+                                        <label for="cost" style="cursor: pointer;">Cost: Low to High</label>
+                                    </div>
+                                    <div class="costhightolow-radio radiobtn" style="cursor: pointer;">
+                                        <input type="radio" id="cost2" style="cursor: pointer;" name="radio">
+                                        <label for="cost2" style="cursor: pointer;">Cost: High to Low</label>
+                                    </div>
+                                </div>
+                            </section>
+                        </article>
+                    </section>
+
+                    <!-- FOOTER SECTION OF FILTER MODAL  -->
+
+                    <section class="footer-modal-section">
+                        <div class="filter-modal-button">
+                            <button class="clear-all">Clear all</button>
+                            <button class="apply">Apply</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="rating">
+                <ul>
+                    <li>Ratings: 4.0+</li>
+                </ul>
+            </div>
+            <div class="veg">
+                <ul>
+                    <li>Pure Veg</li>
+                </ul>
+            </div>
+            <div class="cuisine">
+                <ul>
+                    <li>
+                        <p>Cuisines</p>
+                    </li>
+                    <li>
+                        <img src="./image/arrow.png" width="10.35px" height="5.85px" class="arr">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="orderInsp">
+        <div clas="insp">
+            <div class="orInsp">
+                <p class="desc">Inspiration for your first order</p>
+                <div class="inspImg">
+                    <div class="pizza">
+                        <img src="./image/pizza.png" width="150px" height="150px" class="IMG">
+                        <p class="Para">Pizza</p>
+                    </div>
+                    <div class="paratha">
+                        <img src="./image/parantha.png" width="150px" height="150px" class="IMG">
+                        <p class="Para">Paratha</p>
+                    </div>
+                    <div class="bhature">
+                        <img src="./image/cholebhature.png" width="150px" height="150px" class="IMG">
+                        <p class="Para">Chole Bhature</p>
+                    </div>
+                    <div class="idli">
+                        <img src="./image/idli.png" width="150px" height="150px" class="IMG">
+                        <p class="Para">Idli</p>
+                    </div>
+                    <div class="sandwich">
+                        <img src="./image/sandwich.png" width="150px" height="150px" class="IMG">
+                        <p class="Para">Sandwich</p>
+                    </div>
+                    <div class="dosa">
+                        <img src="./image/dosa.png" width="150px" height="150px" class="IMG">
+                        <p class="Para">Dosa</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="topBrands">
+        <div class="order">
+            <p class="Pr">Top brands for you</p>
+            <div class="top">
+                <div class="mcimg">
+                    <div class="topOrders">
+                        <img src="./image/pizzahut.png" width="110px" height="110px" class="images">
+                    </div>
+                    <p class="name">Pizza Hut</p>
+                    <p class="time">23 min</p>
+                </div>
+                <div class="domimg">
+                    <div class="topOrders">
+                        <img src="./image/domino's.png" width="110px" height="110px" class="images">
+                    </div>
+                    <p class="name">Domino's Pizza</p>
+                    <p class="time">25 min</p>
+                </div>
+                <div class="kingimg">
+                    <div class="topOrders">
+                        <img src="./image/burgerkings.png" width="110px" height="110px" class="images">
+                    </div>
+                    <p class="name">Burger King</p>
+                    <p class="time">25 min</p>
+                </div>
+                <div class="kfcimg">
+                    <div class="topOrders">
+                        <img src="./image/kfc.png" width="110px" height="110px" class="images">
+                    </div>
+                    <p class="name">KFC</p>
+                    <p class="time">17 min</p>
+                </div>
+                <div class="subimg">
+                    <div class="topOrders">
+                        <img src="./image/subway.png" width="110px" height="110px" class="images">
+                    </div>
+                    <p class="name">Subway</p>
+                    <p class="time">17 min</p>
+                </div>
+                <div class="kalimg">
+                    <div class="topOrders">
+                        <img src="./image/kaleva.png" width="110px" height="110px" class="images">
+                    </div>
+                    <p class="name">Kaleva</p>
+                    <p class="time">19 min</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="orderfood">
+            <p class="heading">Order food online in Jai Singh Road</p>
+        </div>
+    </section>
+    <section class="brandName">
+        <div class="hotel">
+            <a href="#">
+                <div class="noto">
+                    <div class="zzz">
+                        <div class="icecream">
+                            <img src="./image/icecream.png" width="329px" height="248px" class="iceimg">
+                        </div>
+                        <div class="offer">
+                            <p class="offerpara">50% OFF up to 100</p>
+                        </div>
+                    </div>
+                    <div class="zz">
+                        <div class="notoCream">
+                            <p class="brname1">NOTO Healthy Ice Cream</p>
+                            <div class="star">
+                                <p class="rating1"><span class="rt">4.3</span> <img src="./image/star.png" width="8px"
+                                        height="8px"></p>
+                            </div>
+                        </div>
+                        <div class="rate1">
+                            <p class="item1">Ice Cream, Mithai, Desserts</p>
+                            <p class="price1">₹100 for one</p>
+                        </div>
+                        <div class="Time">
+                            <p class="tm">31 min</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="noto2">
+                    <div class="zzz">
+                        <div class="icecream">
+                            <img src="./image/sambhar.png" width="329px" height="248px" class="iceimg">
+                        </div>
+                        <div class="offer">
+                            <p class="offerpara">50% OFF up to 100</p>
+                        </div>
+                    </div>
+                    <div class="zz">
+                        <div class="notoCream">
+                            <p class="brname1">Saravana Bhavan</p>
+                            <div class="star">
+                                <p class="rating1"><span class="rt">4.2</span> <img src="./image/star.png" width="8px"
+                                        height="8px"></p>
+                            </div>
+                        </div>
+                        <div class="rate1">
+                            <p class="item1">South Indian, Desserts, Jui..</p>
+                            <p class="price1">₹250 for one</p>
+                        </div>
+                        <div class="Time">
+                            <p class="tm">35 min</p>
+                        </div>
+                        <div class="border"></div>
+                        <div class="safety">
+                            <div><img src="./image/maxsafety.png" width="48px" height="18px"></div>
+                            <div class="safeinst">Follows all Max Safety measures to ensure your food is safe</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="noto2">
+                    <div class="zzz">
+                        <div class="icecream">
+                            <img src="./image/bakery.png" width="329px" height="248px" class="iceimg">
+                        </div>
+                        <div class="offer">
+                            <p class="offerpara">50% OFF up to 100</p>
+                        </div>
+                    </div>
+                    <div class="zz">
+                        <div class="notoCream">
+                            <p class="brname1">Cheesecake & Co.</p>
+                            <div class="star">
+                                <p class="rating1"><span class="rt">4.3</span> <img src="./image/star.png" width="8px"
+                                        height="8px"></p>
+                            </div>
+                        </div>
+                        <div class="rate1">
+                            <p class="item1">Bakery</p>
+                            <p class="price1">₹250 for one</p>
+                        </div>
+                        <div class="Time">
+                            <p class="tm">21 min</p>
+                        </div>
+                        <div class="border"></div>
+                        <div class="safety">
+                            <div><img src="./image/maxsafety.png" width="48px" height="18px"></div>
+                            <div class="safeinst">Follows all Max Safety measures to ensure your food is safe</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="brandName">
+        <div class="hotel">
+            <a href="#">
+                <div class="noto2">
+                    <div class="zzz">
+                        <div class="icecream">
+                            <img src="./image/kfcbucket.png" width="329px" height="248px" class="iceimg">
+                        </div>
+                        <div class="offer">
+                            <p class="offerpara">50% OFF up to 100</p>
+                        </div>
+                    </div>
+                    <div class="zz">
+                        <div class="notoCream">
+                            <p class="brname1">KFC</p>
+                            <div class="star">
+                                <p class="rating1"><span class="rt">4.0</span> <img src="./image/star.png" width="8px"
+                                        height="8px"></p>
+                            </div>
+                        </div>
+                        <div class="rate1">
+                            <p class="item1">Burger, Fast Food, Biryani..</p>
+                            <p class="price1">₹250 for one</p>
+                        </div>
+                        <div class="Time">
+                            <p class="tm">34 min</p>
+                        </div>
+                        <div class="border"></div>
+                        <div class="safety">
+                            <div><img src="./image/maxsafety.png" width="48px" height="18px"></div>
+                            <div class="safeinst">Follows all Max Safety measures to ensure your food is safe</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="noto2">
+                    <div class="zzz">
+                        <div class="icecream">
+                            <img src="./image/momos.png" width="329px" height="248px" class="iceimg">
+                        </div>
+                        <div class="offer">
+                            <p class="offerpara">50% OFF up to 100</p>
+                        </div>
+                    </div>
+                    <div class="zz">
+                        <div class="notoCream">
+                            <p class="brname1">QD's Restaurant</p>
+                            <div class="star">
+                                <p class="rating1"><span class="rt">4.0</span> <img src="./image/star.png" width="8px"
+                                        height="8px"></p>
+                            </div>
+                        </div>
+                        <div class="rate1">
+                            <p class="item1">Chinese, North Indian, Mo..</p>
+                            <p class="price1">₹250 for one</p>
+                        </div>
+                        <div class="Time">
+                            <p class="tm">42 min</p>
+                        </div>
+                        <div class="border"></div>
+                        <div class="safety">
+                            <div><img src="./image/maxsafety.png" width="48px" height="18px"></div>
+                            <div class="safeinst">Follows all Max Safety measures to ensure your food is safe</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="noto">
+                    <div class="zzz">
+                        <div class="icecream">
+                            <img src="./image/hut.png" width="329px" height="248px" class="iceimg">
+                        </div>
+                        <div class="offer">
+                            <p class="offerpara">50% OFF up to 100</p>
+                        </div>
+                    </div>
+                    <div class="zz">
+                        <div class="notoCream">
+                            <p class="brname1">Pizza Hut</p>
+                            <div class="star">
+                                <p class="rating1"><span class="rt">3.8</span> <img src="./image/star.png" width="8px"
+                                        height="8px"></p>
+                            </div>
+                        </div>
+                        <div class="rate1">
+                            <p class="item1">Pizza, Fast Food, Italian</p>
+                            <p class="price1">₹250 for one</p>
+                        </div>
+                        <div class="Time">
+                            <p class="tm">25 min</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="brandName">
+        <div class="hotel">
+            <a href="#">
+                <div class="noto">
+                    <div class="zzz">
+                        <div class="icecream">
+                            <img src="./image/canteen.png" width="329px" height="248px" class="iceimg">
+                        </div>
+                        <div class="offer">
+                            <p class="offerpara">50% OFF up to 100</p>
+                        </div>
+                    </div>
+                    <div class="zz">
+                        <div class="notoCream">
+                            <p class="brname1">Canteen 24x7</p>
+                            <div class="star">
+                                <p class="rating1"><span class="rt">3.6</span> <img src="./image/star.png" width="8px"
+                                        height="8px"></p>
+                            </div>
+                        </div>
+                        <div class="rate1">
+                            <p class="item1">North Indian, Biryani</p>
+                            <p class="price1">₹300 for one</p>
+                        </div>
+                        <div class="Time">
+                            <p class="tm">38 min</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="noto2">
+                    <div class="zzz">
+                        <div class="icecream">
+                            <img src="./image/golgappe.png" width="329px" height="248px" class="iceimg">
+                        </div>
+                        <div class="offer">
+                            <p class="offerpara">50% OFF up to 100</p>
+                        </div>
+                    </div>
+                    <div class="zz">
+                        <div class="notoCream">
+                            <p class="brname1">Kaleva</p>
+                            <div class="star">
+                                <p class="rating1"><span class="rt">4.3</span> <img src="./image/star.png" width="8px"
+                                        height="8px"></p>
+                            </div>
+                        </div>
+                        <div class="rate1">
+                            <p class="item1">Mithai, Street Food, Bever..</p>
+                            <p class="price1">₹300 for one</p>
+                        </div>
+                        <div class="Time">
+                            <p class="tm">19 min</p>
+                        </div>
+                        <div class="border"></div>
+                        <div class="safety">
+                            <div><img src="./image/maxsafety.png" width="48px" height="18px"></div>
+                            <div class="safeinst">Follows all Max Safety measures to ensure your food is safe</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="noto2">
+                    <div class="zzz">
+                        <div class="icecream">
+                            <img src="./image/vegGulati.png" width="329px" height="248px" class="iceimg">
+                        </div>
+                        <div class="offer">
+                            <p class="offerpara">50% OFF up to 100</p>
+                        </div>
+                    </div>
+                    <div class="zz">
+                        <div class="notoCream">
+                            <p class="brname1">Veg Gulati</p>
+                            <div class="star">
+                                <p class="rating1"><span class="rt">3.9</span> <img src="./image/star.png" width="8px"
+                                        height="8px"></p>
+                            </div>
+                        </div>
+                        <div class="rate1">
+                            <p class="item1">North Indian, Salad, Desse..</p>
+                            <p class="price1">₹300 for one</p>
+                        </div>
+                        <div class="Time">
+                            <p class="tm">30 min</p>
+                        </div>
+                        <div class="border"></div>
+                        <div class="safety">
+                            <div><img src="./image/maxsafety.png" width="48px" height="18px"></div>
+                            <div class="safeinst">Follows all Max Safety measures to ensure your food is safe</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="brandName">
+        <div class="hotel">
+            <a href="#">
+                <div class="noto2">
+                    <div class="zzz">
+                        <div class="icecream">
+                            <img src="./image/haldiram.png" width="329px" height="248px" class="iceimg">
+                        </div>
+                        <div class="offer">
+                            <p class="offerpara">50% OFF up to 100</p>
+                        </div>
+                    </div>
+                    <div class="zz">
+                        <div class="notoCream">
+                            <p class="brname1">Haldiram's</p>
+                            <div class="star">
+                                <p class="rating1"><span class="rt">4.2</span> <img src="./image/star.png" width="8px"
+                                        height="8px"></p>
+                            </div>
+                        </div>
+                        <div class="rate1">
+                            <p class="item1">South Indian, North Indian</p>
+                            <p class="price1">₹200 for one</p>
+                        </div>
+                        <div class="Time">
+                            <p class="tm">27 min</p>
+                        </div>
+                        <div class="border"></div>
+                        <div class="safety">
+                            <div><img src="./image/maxsafety.png" width="48px" height="18px"></div>
+                            <div class="safeinst">Follows all Max Safety measures to ensure your food is safe</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="noto2">
+                    <div class="zzz">
+                        <div class="icecream">
+                            <img src="./image/bikanerwala.png" width="329px" height="248px" class="iceimg">
+                        </div>
+                        <div class="offer">
+                            <p class="offerpara">50% OFF up to 100</p>
+                        </div>
+                    </div>
+                    <div class="zz">
+                        <div class="notoCream">
+                            <p class="brname1">Bikanervala</p>
+                            <div class="star">
+                                <p class="rating1"><span class="rt">4.0</span> <img src="./image/star.png" width="8px"
+                                        height="8px"></p>
+                            </div>
+                        </div>
+                        <div class="rate1">
+                            <p class="item1">Mithai, North Indian</p>
+                            <p class="price1">₹200 for one</p>
+                        </div>
+                        <div class="Time">
+                            <p class="tm">25 min</p>
+                        </div>
+                        <div class="border"></div>
+                        <div class="safety">
+                            <div><img src="./image/maxsafety.png" width="48px" height="18px"></div>
+                            <div class="safeinst">Follows all Max Safety measures to ensure your food is safe</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="noto2">
+                    <div class="zzz">
+                        <div class="icecream">
+                            <img src="./image/naturalIceCream.png" width="329px" height="248px" class="iceimg">
+                        </div>
+                        <div class="offer">
+                            <p class="offerpara">50% OFF up to 100</p>
+                        </div>
+                    </div>
+                    <div class="zz">
+                        <div class="notoCream">
+                            <p class="brname1">Natural Ice Cream</p>
+                            <div class="star">
+                                <p class="rating1"><span class="rt">4.5</span> <img src="./image/star.png" width="8px"
+                                        height="8px"></p>
+                            </div>
+                        </div>
+                        <div class="rate1">
+                            <p class="item1">Ice Cream, Desserts, Shak..</p>
+                            <p class="price1">₹200 for one</p>
+                        </div>
+                        <div class="Time">
+                            <p class="tm">16 min</p>
+                        </div>
+                        <div class="border"></div>
+                        <div class="safety">
+                            <div><img src="./image/safe.png" width="38px" height="18px"></div>
+                            <div class="safe">Restaurant partner follows WHO protocols</div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+            <div class="explore">
+                <p class="expHeading">Explore options near me</p>
+            </div>
+            <div class="accordian">
+                <div class="question">
+                    <p class="line1Para">
+                        Popular cuisine near me
+                    </p>
+                    <img class="icon" src="./image/down-arrow.png" width="20px " height="20px">
+                </div>
+                <div class="answer" style="height: 115px;">
+                    <p style="color: #828282;">
+                        Bakery food near me &nbsp;<span style="font-size: 1.5rem;">&#8226;</span> Beverages food near me
+                        &nbsp;<span style="font-size: 1.5rem;">&#8226;</span> Biryani food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Burger food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Chinese food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Continental food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Desserts food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Italian food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Kebab food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Mithai food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Momos food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Mughlai food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> North Indian food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Pasta food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Pizza food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Rolls food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Sandwich food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Shake food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span>; South Indian food near me &nbsp;<span
+                            style="font-size: 1.5rem;">&#8226;</span> Street food near me
+                    </p>
+                </div>
+            </div>
+            <!-- Accordian 2 -->
+            <div class="accordian">
+                <div class="question">
+                    <p class="line2Para">Popular restaurant types near me</p>
+                    <img class="icon" src="./image/down-arrow.png" width="20px " height="20px">
+                </div>
+                <div class="answer">
+                    <p style="color: #828282;">
+                        Bakeries near me <span style="font-size: 1.5rem;">&#8226;</span> Bars near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Beverage Shops near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Bhojanalya near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Cafés near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Casual Dining near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Clubs near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Cocktail Bars near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Confectioneries near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Dessert Parlors near me Dhabas near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Fine Dining near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Food Courts near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Food Trucks near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Irani Cafes near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Kiosks near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Lounges near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Meat Shops near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Microbreweries near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Paan Shop near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Pubs near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Quick Bites near me <span
+                            style="font-size: 1.5rem;">&#8226;</span> Sweet Shops near me
+                    </p>
+                </div>
+            </div>
+            <!-- Accordian 3 -->
+            <div class="accordian">
+                <div class="question">
+                    <p class="line1Para">Top restaurant chain</p>
+                    <img class="icon" src="./image/down-arrow.png" width="20px " height="20px">
+                </div>
+                <div class="answer">
+                    <p style="margin: 20px 0px 0px 0px;">
+                    <ul style="display: flex; padding: 0; color: #828282;">
+                        <li style="width: 211px;">Bikanervala</li>
+                        <li style="width: 211px;">Biryani blues</li>
+                        <li style="width: 211px;">BTW</li>
+                        <li style="width: 211px;">Burger King</li>
+                        <li style="width: 211px;">Burger Singh</li>
+                    </ul>
+                    </p>
+                    <p style="margin: 20px 0px 0px 0px;">
+                    <ul style="display: flex; padding: 0; color: #828282;">
+                        <li style="width: 211px;">Domino's</li>
+                        <li style="width: 211px;">Dunkin' Donuts</li>
+                        <li style="width: 211px;">Haldiram's</li>
+                        <li style="width: 211px;">KFC</li>
+                        <li style="width: 211px;">Krispy Kreme</li>
+                    </ul>
+                    </p>
+                    <p style="margin: 20px 0px 0px 0px;">
+                    <ul style="display: flex; padding: 0; color: #828282;">
+                        <li style="width: 211px;">Mcdonald's</li>
+                        <li style="width: 211px;">Moti Mahal Delux</li>
+                        <li style="width: 211px;">Om Sweet & Snacks</li>
+                        <li style="width: 211px;">Paradise Biryani</li>
+                        <li style="width: 211px;">Pizza Hut</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <!-- Accordian 4 -->
+            <div class="accordian">
+                <div class="question">
+                    <p class="line1Para">Cities we deliver to</p>
+                    <img class="icon" src="./image/down-arrow.png" width="20px " height="20px">
+                </div>
+                <div class="answer">
+                    <p style="margin: 20px 0px 0px 0px;">
+                    <ul style="display: flex; padding: 0; color: #828282;">
+                        <li style="width: 211px;">Delhi NCR</li>
+                        <li style="width: 211px;">Kolkata</li>
+                        <li style="width: 211px;">Mumbai</li>
+                        <li style="width: 211px;">Bengluru</li>
+                        <li style="width: 211px;">Pune</li>
+                    </ul>
+                    </p>
+                    <p style="margin: 20px 0px 0px 0px;">
+                    <ul style="display: flex; padding: 0; color: #828282;">
+                        <li style="width: 211px;">Hydrabad</li>
+                        <li style="width: 211px;">Chennai</li>
+                        <li style="width: 211px;">Lucknow</li>
+                        <li style="width: 211px;">Kochi</li>
+                        <li style="width: 211px;">Jaipur</li>
+                    </ul>
+                    </p>
+                    <p style="margin: 20px 0px 0px 0px;">
+                    <ul style="display: flex; padding: 0; color: #828282;">
+                        <li style="width: 211px;">Ahmedabad</li>
+                        <li style="width: 211px;">Chandigarh</li>
+                        <li style="width: 211px;">Goa</li>
+                        <li style="width: 211px;">Indore</li>
+                        <li style="width: 211px;">Gangtok</li>
+                    </ul>
+                    </p>
+                    <p style="margin: 20px 0px 0px 0px;">
+                    <ul style="display: flex; padding: 0; color: #828282;">
+                        <li style="width: 211px;">Nashik</li>
+                        <li style="width: 211px;">Ooty</li>
+                        <li style="width: 211px;">Shimla</li>
+                        <li style="width: 211px;">Ludhiana</li>
+                        <li style="width: 211px;">Guwahati</li>
+                    </ul>
+                    </p>
+                    <p style="margin: 20px 0px 0px 0px;">
+                    <ul style="display: flex; padding: 0; color: #828282;">
+                        <li style="width: 211px;">Amritsar</li>
+                        <li style="width: 211px;">Kanpur</li>
+                        <li style="width: 211px;">Allahbad</li>
+                        <li style="width: 211px;">Aurangabad</li>
+                        <li style="width: 211px; color: black;">See more</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section>
+        <div class="footerend">
+            <div class="footend">
+                <div class="zomato">
+                    <img src="./image/Zomato.png" width="132px" height="28px">
+                </div>
+                <div class="coula">
+                    <div class="country">
+                        <div class="modal">
+                            <img src="./image/india.png" class="indiaImg">
+                            <p class="countryName">India</p>
+                            <img src="./image/arrow.png" width="15px" height="15px">
+                        </div>
+                        <div class="content">
+                            <div class="modal-content">
+                                <div class="triangle"></div>
+                                <!-- flag section 1 -->
+                                <div class="countryname-flag">
+                                    <div class="flags">
+                                        <img src="./image/india.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">India</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/australia.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Australia</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/brazil.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Brazil</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/canada.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Canada</p>
+                                    </div>
+                                </div>
+                                <!-- flag section 2 -->
+                                <div class="countryname-flag">
+                                    <div class="flags">
+                                        <img src="./image/chile.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Chile</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/czech-republic.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px; line-height: 15px;">Czech
+                                            Republic</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/indonesia.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Indonesia</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/ireland.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Ireland</p>
+                                    </div>
+                                </div>
+                                <!-- flag section 3 -->
+                                <div class="countryname-flag">
+                                    <div class="flags">
+                                        <img src="./image/italy.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Italy</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/lebanon.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Lebanon</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/malaysia.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Malaysia</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/new-zealand.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px; line-height: 15px;">New Zealand
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- flag section 4 -->
+                                <div class="countryname-flag">
+                                    <div class="flags">
+                                        <img src="./image/philippines.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Philippines</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/poland.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Poland</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/portugal.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Portugal</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/qatar.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Qatar</p>
+                                    </div>
+                                </div>
+                                <!-- flag sectio 5 -->
+                                <div class="countryname-flag">
+                                    <div class="flags">
+                                        <img src="./image/singapore.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Singapore</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/slovakia.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Slovakia</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/south-africa.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px; line-height: 15px;">South Africa
+                                        </p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/sri-lanka.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px; line-height: 15px;">Sri Lanka</p>
+                                    </div>
+                                </div>
+                                <!-- flag section 6 -->
+                                <div class="countryname-flag">
+                                    <div class="flags">
+                                        <img src="./image/turkey.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">Turkey</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/united-arab-emirates.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px;">UAE</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/united-kingdom.png" class="modal-flags">
+                                        <p class="countryName"
+                                            style="font-size: 14px; line-height: 15px; line-height: 15px;">United
+                                            Kingdom</p>
+                                    </div>
+                                    <div class="flags">
+                                        <img src="./image/united-states-of-america.png" class="modal-flags">
+                                        <p class="countryName" style="font-size: 14px; line-height: 15px;">USA</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="language">
+                        <img src="./image/internet.png" width="18px" height="18px" class="browser">
+                        <p class="languageType">English</p>
+                        <img src="./image/arrow.png" width="15px" height="15px" class="arrow">
+                    </div>
+                </div>
+            </div>
+            <div class="about">
+                <p class="zomatoPara">ABOUT &nbsp;ZOMATO</p>
+                <p class="zomaversePara">ZOMAVERSE</p>
+                <p class="forResturantPara">FOR &nbsp;RESTAURANT</p>
+                <p class="learnmorePara">LEARN &nbsp;MORE</p>
+                <p class="socialLinksPara">SOCIAL &nbsp;LINKS</p>
+            </div>
+            <div class="more">
+                <p class="whoPara">Who We Are</p>
+                <p class="zomaPara">Zomato</p>
+                <p class="partnerPara">Partner With Us</p>
+                <p class="privacyPara">Privacy</p>
+                <div class="moreImg">
+                    <a href="#"><img src="./image/linkedin.png" width="22px" height="22px"></a>
+                    <a href="#"><img src="./image/instagram.png" width="22px" height="22px"></a>
+                    <a href="#"><img src="./image/twitter.png" width="22px" height="22px"></a>
+                    <a href="#"><img src="./image/youtube.png" width="22px" height="22px"></a>
+                    <a href="#"><img src="./image/facebook.png" width="22px" height="22px"></a>
+                </div>
+            </div>
+            <div class="detail">
+                <p class="whoPara">Blog</p>
+                <p class="zomaPara">Blinkit</p>
+                <p class="partnerPara">Apps For You</p>
+                <p class="privacyPara">Security</p>
+            </div>
+            <div class="descMore">
+                <p class="whoPara">Work With Us</p>
+                <p class="zomaPara">Feeding India</p>
+                <p class="partnerPara"></p>
+                <p class="privacyPara">Terms</p>
+                <a href="#"><img src="./image/app.png" width="137px" height="40px"></a>
+            </div>
+            <div class="inverstorDetail">
+                <p class="whoPara">Investor Relations</p>
+                <p class="zomaPara">Hyperpure</p>
+                <p class="forResturantPara">FOR ENTERPRISES</p>
+                <p class="privacyPara">Sitemap</p>
+            </div>
+            <div class="report">
+                <p class="whoPara">Report Fraud</p>
+                <p class="zomaPara">Zomaland</p>
+                <p class="partnerPara">Zomato For Enterprise</p>
+                <p class="privacyPara"></p>
+                <div class="googleImg">
+                    <a href="#"><img src="./image/googleplay.png" width="137px" height="40px"></a>
+                </div>
+            </div>
+            <div class="contact">
+                <p class="whoPara">Contact</p>
+            </div>
+            <hr class="horizontalRow">
+            <p class="desc1">
+                By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and
+                Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All
+                rights reserved.
+            </p>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
